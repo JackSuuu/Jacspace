@@ -3,5 +3,56 @@
     --color-secondary: #7B3BED;
     --color-accent: #342155;
     --color-headings: #100072;
-    --color-body: #626262;
+    --color-body: #AEAEAE;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: Roboto, Arial, Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    color: var(--color-body);
+}
+
+h1, h2, h3{
+    color: var(--color-headings);
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3{
+    font-size: 1.7rem;
+}
+
+p{
+    margin-top: 0
+}
+
+@media screen and (min-width: 1024px) {
+    body{
+        font-size: 1.5rem;
+    }
+
+    h1 {
+        font-size: 9rem;
+    }
+
+    h2{
+        font-size: 4rem;
+    }
+
+    h3{
+        font-size: 2.5rem;
+    }
+    
 }
