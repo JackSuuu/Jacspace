@@ -747,4 +747,65 @@ a {
 }
 
 /* Feature */
+.feature__container {
+    background-image: url(../images/galaxy3.webp);
+    background-size: contain;
+    padding: 10rem 0 40rem;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+}
+
+.feature__container .block--dark {
+    background: none;
+}
+
+.block__header__feature {
+    margin-right: 80rem;
+}
+
+.feature__header {
+    color: white;
+    text-align: left;
+    font-size: 6.5rem;
+    line-height: 80px;
+}
+
+.feature__header__content {
+    text-align: left;
+    font-size: 2rem;
+}
+
+.feature {
+    gap: 4rem 2rem;
+    margin: 14rem 5rem;
+}
+.feature__heading {
+    margin: 1rem 0;
+    font-size: 2.3rem;
+    color: #fff
+}
+
+.feature__description {
+    margin-right: 4rem;
+}
+
+.feature__link {
+    font-size: 1.4rem;
+}
+
+.feature__image {
+    width: 90%;
+    height: 300px;
+    border: 10px solid var(--color-primary);
+    border-radius: 70px;
+    box-shadow: 0 0 30px 7px #d7d5d5 ;
+}
+
+
+@media screen and (min-width: 768px)  {
+    .feature:nth-of-type(even) .feature__description {
+        order: 2;
+    }
+
+
+}
 
