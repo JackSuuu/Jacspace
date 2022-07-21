@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="travel to the space any time any day" />
+    <meta propety="og:title" content="Jacspace..." />
+    <meta propety="og:description" content="Jacspace..." />
+    <meta propety="og:type" content="Website" />
+    <meta propety="og:image" content="https://Jacspace.com" />
+    <meta propety="og:url" content="https://Jacspace.com" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -75,18 +81,22 @@
       <!-- Hero section -->
       <section class="block block--dark block--skewed-left">
         <div class="container grid grid--1x2">
-          <header class="block__header hero__content">
+          <header class="block__header hero__content" data-aos="fade-right">
             <h1 class="block__heading">Serious Space Travel for Pros</h1>
             <p class="hero__tagline">
               Travel fast than any other companies in less than 60 seconds
             </p>
             <a href="" class="btn--banner">GET STARTED</a>
           </header>
-          <img class="banner--image" src="images/banner.png" />
+          <img
+            class="banner--image"
+            data-aos="zoom-in-up"
+            src="images/banner.png"
+          />
         </div>
       </section>
     </header>
-    <section class="block container block-domain">
+    <section class="block container block-domain" data-aos="zoom-in">
       <header class="block__header">
         <h2 class="domain--heading">Starting at $500 per month</h2>
         <p class="domain--paragraph">
@@ -112,7 +122,7 @@
       </ul>
     </section>
     <!-- Plan section -->
-    <section class="block container block-plans">
+    <section class="block container block-plans" data-aos="zoom-in-up">
       <div class="grid grid--1x3">
         <!-- Plan secondary -->
         <div class="plan">
@@ -188,7 +198,7 @@
           </p>
         </header>
         <article class="grid grid--1x2 feature">
-          <div class="feature__description">
+          <div class="feature__description" data-aos="fade-right">
             <h3 class="feature__heading">
               Watch the galaxy directly on our spaceship
             </h3>
@@ -199,14 +209,14 @@
             </p>
             <a href="#" class="link-arrow feature__link">Learn more</a>
           </div>
-          <picture>
+          <picture data-aos="zoom-in-left">
             <source type="image/webp" srcset="images/galaxy1.webp" />
             <img class="feature__image" src="images/galaxy1.jpg" alt="" />
           </picture>
         </article>
         <article class="grid grid--1x2 feature">
           <div class="feature__description">
-            <h3 class="feature__heading">
+            <h3 class="feature__heading" data-aos="fade-right">
               Watch the galaxy directly on our spaceship
             </h3>
             <p>
@@ -216,13 +226,13 @@
             </p>
             <a href="#" class="link-arrow feature__link">Learn more</a>
           </div>
-          <picture>
+          <picture data-aos="zoom-in-left">
             <source type="image/webp" srcset="images/galaxy2.webp" />
             <img class="feature__image" src="images/galaxy2.jpg" alt="" />
           </picture>
         </article>
         <article class="grid grid--1x2 feature">
-          <div class="feature__description">
+          <div class="feature__description" data-aos="fade-right">
             <h3 class="feature__heading">
               Watch the galaxy directly on our spaceship
             </h3>
@@ -233,7 +243,7 @@
             </p>
             <a href="#" class="link-arrow feature__link">Learn more</a>
           </div>
-          <picture>
+          <picture data-aos="zoom-in-left">
             <source type="image/webp" srcset="images/galaxy4.webp" />
             <img class="feature__image" src="images/galaxy4.jpg" alt="" />
           </picture>
@@ -251,6 +261,7 @@
           class="show__case__img"
           src="images/spaceship.webp"
           alt="a modern-urban spaceship"
+          data-aos="zoom-out-right"
         />
         <ul class="list show__case__list">
           <li>
@@ -306,7 +317,7 @@
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, ipsam.
         </p>
       </header>
-      <div class="container">
+      <div class="container" data-aos="flip-up">
         <div class="card founder">
           <div class="grid">
             <div class="grid grid--1x2">
@@ -355,7 +366,7 @@
     <footer class="block block--dark footer--block">
       <div class="container grid footer__sections">
         <section class="collapsible collapsible--expanded footer--section">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">Product</h2>
             <svg
               class="collapsible__chevron"
@@ -372,7 +383,7 @@
                 fill-opacity="0.55"
               />
             </svg>
-          </header>
+          </div>
           <div class="collapsible__content">
             <ul class="list">
               <li><a href="#">Website hosting</a></li>
@@ -382,7 +393,7 @@
           </div>
         </section>
         <section class="collapsible collapsible--expanded footer--section">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">Company</h2>
             <svg
               class="collapsible__chevron"
@@ -399,7 +410,7 @@
                 fill-opacity="0.55"
               />
             </svg>
-          </header>
+          </div>
           <div class="collapsible__content">
             <ul class="list">
               <li><a href="#">Website hosting</a></li>
@@ -409,7 +420,7 @@
           </div>
         </section>
         <section class="collapsible collapsible--expanded footer--section">
-          <header class="collapsible__header">
+          <div class="collapsible__header">
             <h2 class="collapsible__heading footer__heading">Support</h2>
             <svg
               class="collapsible__chevron"
@@ -426,7 +437,7 @@
                 fill-opacity="0.55"
               />
             </svg>
-          </header>
+          </div>
           <div class="collapsible__content">
             <ul class="list">
               <li><a href="#">Website hosting</a></li>
@@ -435,7 +446,7 @@
             </ul>
           </div>
         </section>
-        <section class="block__brand">
+        <div class="block__brand">
           <img class="footer__logo" src="icons/logo_new.svg" />
           <p class="footer__copyright">Copyright 2022 Jack Su</p>
         </section>
