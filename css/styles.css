@@ -14,6 +14,14 @@ html{
     font-size: 62.5%;
 }
 
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
 body{
     font-family: Roboto, Arial, Arial, Helvetica, sans-serif;
     font-size: 1.3rem;
@@ -102,7 +110,7 @@ p{
     background-color: var(--color-primary);
     color: white;
     border: none;
-    padding: 16px 70px;
+    padding: 16px 10vw;
     border-radius: 15px;
     font-weight: bold;
     transition: ease all .5s;
@@ -597,7 +605,6 @@ a {
 /* Block */
 .block {
     padding: var(--padding-vertical) 2rem;
-    width: auto;
     padding-right: 2rem;
     padding-left: 2rem;
     
@@ -616,7 +623,6 @@ a {
     color: var(--color-body);
     font-weight: lighter;
     margin: 0 auto;
-    width: auto;
     padding-right: 5rem;
     padding-left: 5rem;
 }
@@ -640,7 +646,6 @@ a {
 .container {
     max-width: 1267px;
     margin: 0 auto;
-    width: auto;
 }
 
 /* Navigation Bar */
