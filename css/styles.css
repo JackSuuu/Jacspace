@@ -26,7 +26,11 @@ body{
     font-size: 1.3rem;
     line-height: 1.5;
     color: var(--color-body);
+}
 
+::selection {
+    color: whitesmoke;
+    background: var(--color-primary);
 }
 
 h1, h2, h3{
