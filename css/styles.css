@@ -49,6 +49,7 @@ h3{
 }
 
 p{
+    font-size: 2rem;
     margin-top: 0;
     transition: ease all .5s;
 }
@@ -807,8 +808,9 @@ a {
 .feature__header {
     color: white;
     text-align: center;
-    font-size: 4rem;
-    line-height: 40px;
+    font-size: 4.5rem;
+    line-height: 50px;
+    margin-bottom: 3rem;
 }
 
 .feature__header__content {
@@ -823,12 +825,17 @@ a {
 
 .feature__heading {
     margin: 1rem 0;
-    font-size: 2.3rem;
+    font-size: 3rem;
     color: #fff
 }
 
 .feature__description {
-    margin-right: 4rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature__description p {
+    color: #d4dde0;
 }
 
 .feature__link {
@@ -837,11 +844,11 @@ a {
 
 .feature__image {
     width: 90%;
-    height: 90%;
+    height: 150px;
     border: 10px solid var(--color-primary);
     border-radius: 70px;
     margin-top: 2.3rem;
-    box-shadow: 0 0 30px 7px #d7d5d5 ;
+    box-shadow: 0 0 20px 2px #d7d5d5 ;
 }
 
 
@@ -867,6 +874,10 @@ a {
 
     .feature {
         margin: 14rem 5rem;
+    }
+
+    .feature__description {
+        padding: 0 4rem;
     }
 
     .feature__image {
@@ -948,7 +959,7 @@ a {
 @media screen and (min-width: 768px) {
     
     .founder__section {
-        padding: 7rem 18rem 15rem;
+        padding: 7rem 10vw 15rem;
     }
     .founder__header h2 {
         font-size: 55px;
