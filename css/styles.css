@@ -916,6 +916,7 @@ a {
 }
 
 .show__case__content {
+    font-size: 1.3rem;
     color: var(--color-body);
 }
 
