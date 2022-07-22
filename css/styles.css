@@ -623,8 +623,8 @@ a {
     color: var(--color-body);
     font-weight: lighter;
     margin: 0 auto;
-    padding-right: 5rem;
-    padding-left: 5rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
 }
 
 .block--dark .block__heading {
@@ -646,6 +646,15 @@ a {
 .container {
     max-width: 1267px;
     margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+
+.block--dark {
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+    
 }
 
 /* Navigation Bar */
@@ -844,10 +853,10 @@ a {
 
 .feature__image {
     width: 90%;
-    height: 150px;
+    height: 230px;
     border: 10px solid var(--color-primary);
     border-radius: 70px;
-    margin-top: 2.3rem;
+    margin-top: 4rem;
     box-shadow: 0 0 20px 2px #d7d5d5 ;
 }
 
@@ -882,11 +891,7 @@ a {
 
     .feature__image {
         width: 90%;
-        height: 300px;
-        border: 10px solid var(--color-primary);
-        border-radius: 70px;
-        margin-top: 2.3rem;
-        box-shadow: 0 0 30px 7px #d7d5d5 ;
+        max-height: 300px;
     }
 }
 
