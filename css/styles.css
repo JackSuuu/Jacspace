@@ -365,8 +365,13 @@ a {
     right: 5%;
 }
 
+.plan {
+    transition: ease-out all 0.3s;
+}
+
 .plan:hover {
     transform: scale(1.05);
+    transform: rotateX(5deg) rotateZ(5deg);
     transition: ease-out all 0.3s;
 }
 
@@ -379,12 +384,12 @@ a {
         font-size: 5rem;
     }
 
-    .plan--popular {
-        transform: scale(1.07);
+    .plan .plan--popular {
+        transform: scale(1.05);
     }
 
-    .plan--popular:hover {
-        transform: scale(1.13);
+    .plan .plan--popular:hover {
+        transform: scale(1.10);
         transition: ease-out all 0.3s;
     }
     
